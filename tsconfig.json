@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "esnext",
+    ],
+    "alwaysStrict": true,
+    "assumeChangesOnlyAffectDirectDependencies": true,
+    "declarationDir": "@types",
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "importsNotUsedAsValues": "error",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "plugins": [],
+    "pretty": true,
+    "rootDir": "src",
+    "sourceMap": true,
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "stripInternal": true,
+    "rootDirs": [
+      "."
+    ],
+    "types": [
+      "@types/node"
+    ],
+    "baseUrl": "."
+  },
+  "ts-node": {
+    "compilerOptions": {},
+  },
+  "include": [
+    "src"
+  ]
+}

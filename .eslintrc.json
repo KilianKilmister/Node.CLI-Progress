@@ -1,3 +1,10 @@
 {
-    "extends": ["eslint:recommended", "aenondynamics"]
+  "extends": [
+    "eslint:recommended",
+    "aenondynamics"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint/eslint-plugin"
+  ]
 }
